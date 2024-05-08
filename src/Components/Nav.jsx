@@ -21,11 +21,7 @@ export default function NavBar() {
           </Nav.Link>
         </Nav.Item>
 
-        <Nav.Item>
-          <Nav.Link as={NavLink} to={'/map'}>
-            Map
-          </Nav.Link>
-        </Nav.Item>
+       
 
         <img className='cloud' src={cloud} alt='sun and cloud icon' />
       </Nav>
