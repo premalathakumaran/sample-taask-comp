@@ -9,18 +9,21 @@ export default function NavBar() {
   return (
     <>
       <Nav as='h4' className='mt-0 pt-5' variant='tabs' defaultActiveKey='/'>
-        <Nav.Item className=''>
-          <Nav.Link as={NavLink} to={'/'}>
-            Home
-          </Nav.Link>
-        </Nav.Item>
+        
 
-        <Nav.Item>
+        <Nav.Item className=''>
           <Nav.Link as={NavLink} to={'/dashboard'}>
             Dashboard
           </Nav.Link>
         </Nav.Item>
 
+        <Nav.Item>
+          <Nav.Link as={NavLink} to={'/map'}>
+            Map
+          </Nav.Link>
+        </Nav.Item>
+
+        
        
 
         <img className='cloud' src={cloud} alt='sun and cloud icon' />
